@@ -18,4 +18,6 @@ RUN npm install
 
 COPY . .
 
+RUN chmod +x "./develop.sh"
+
 ENTRYPOINT ["./develop.sh"]
