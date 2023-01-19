@@ -6,6 +6,8 @@ COPY package.json .
 COPY develop.sh .
 COPY yarn.* .
 
+USER admin
+
 RUN apt-get update
 
 RUN apt-get install -y python
