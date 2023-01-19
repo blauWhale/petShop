@@ -18,6 +18,4 @@ RUN npm install
 
 COPY . .
 
-USER admin
-
 ENTRYPOINT ["./develop.sh"]
