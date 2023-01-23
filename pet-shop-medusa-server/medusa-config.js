@@ -23,7 +23,7 @@ try {
 }
 
 // CORS when consuming Medusa from admin
-const ADMIN_CORS = process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001,https://legendary-caramel-4107d1.netlify.app";
+const ADMIN_CORS = process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001,https://legendary-caramel-4107d1.netlify.app,https://63c9b82f590e3931a3e6904a--legendary-caramel-4107d1.netlify.app";
 
 // CORS to avoid issues when consuming Medusa from a client
 const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000,https://petshop-frontend-production.up.railway.app";
@@ -82,7 +82,7 @@ module.exports = {
   projectConfig: {
     // redis_url: REDIS_URL,
     // For more production-like environment install PostgresQL
-     database_url: "postgresql://postgres:A0fVYPmLXINLau0sNMpX@containers-us-west-123.railway.app:8004/railway",
+     database_url: DATABASE_URL,
      database_type: "postgres",
     store_cors: STORE_CORS,
     admin_cors: ADMIN_CORS,
