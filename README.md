@@ -1,4 +1,6 @@
-# petShop
+# petShop - Modul 151 LB3
+ 
+Ein Webshop auf dem man Haustiere kaufen kann. Umgesetzt mit Medusa JS und deployed auf Railway. 
 
 ## Testumgebung
 Betriebssystem: Windows
